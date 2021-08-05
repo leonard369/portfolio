@@ -1,0 +1,43 @@
+.calc{
+	width: 600px;
+	height: 300px;
+	margin:0 auto;
+    background-color: #d9dbdb;
+}
+/*
+block horizontal
+ */
+.block{
+	display: flex;
+ flex-flow: column nowrap;
+ align-items: center;
+ height: 50px;
+}
+/*
+box vertical block
+ */
+.box{
+	display: flex;
+ justify-content: center;
+ align-items: flex-start;
+ height: 40px;
+}
+h1{
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 18px;
+}
+.text{
+	padding-top: 4px;
+	align-items: center;
+}
+.clear{
+	width: 100px;
+}
+input,select,option{
+	margin-top: 5px;
+	margin-left:3px;
+	margin-right: 3px;
+	width: 100px;
+}
+
